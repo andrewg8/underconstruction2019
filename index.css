@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+
+.container {
+position: relative;
+height: 100%;    
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+body {
+    background-color: #f9f8f7;
+}
